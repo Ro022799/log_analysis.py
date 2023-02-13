@@ -32,10 +32,6 @@ def diccionarios(line):
 	dict_error = sorted(errors.items(), key= operator.itemgetter(1), reverse= True)
 	dict_user = sorted(per_user.items())
 	return dict_error, dict_user
-#if __name__ == '__main__':
-	#with ProcessPoolExecutor(max_workers=1) as executor:
-		#a = list(executor.map(diccionarios, dictados()))
-	#error, user=a[len(a)-1]
 	
 
 def csv_generated(file1, file2):
