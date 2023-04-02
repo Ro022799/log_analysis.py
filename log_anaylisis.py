@@ -22,7 +22,6 @@ def informacion():
 			user = result.groups()[3]
 			yield Users(action, message, user)
 
-
 def diccionarios():
 	per_user ={}
 	errors ={}
