@@ -1,0 +1,1 @@
+./log_anaylisis.py log_file.log
